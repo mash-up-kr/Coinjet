@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
+		AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
+		AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */; };
+		AA7114051FCC2DE800A677FC /* CoinjetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114041FCC2DE800A677FC /* CoinjetTests.swift */; };
+		AA7114101FCC2DE800A677FC /* CoinjetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71140F1FCC2DE800A677FC /* CoinjetUITests.swift */; };
+		AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71141E1FCC2E2300A677FC /* TabViewController.swift */; };
+		AA71143F1FCC2E2500A677FC /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71141F1FCC2E2300A677FC /* Tab.storyboard */; };
+		AA7114401FCC2E2500A677FC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114231FCC2E2300A677FC /* Extension.swift */; };
+		AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114261FCC2E2300A677FC /* APIManager.swift */; };
+		AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114281FCC2E2300A677FC /* KakaoManager.swift */; };
+		AA7114431FCC2E2500A677FC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71142A1FCC2E2400A677FC /* Home.storyboard */; };
+		AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71142B1FCC2E2400A677FC /* HomeViewController.swift */; };
+		AA7114451FCC2E2500A677FC /* Community.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71142D1FCC2E2400A677FC /* Community.storyboard */; };
+		AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71142E1FCC2E2400A677FC /* CommunityViewController.swift */; };
+		AA71144A1FCC2E2500A677FC /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7114361FCC2E2400A677FC /* MyPage.storyboard */; };
+		AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114371FCC2E2400A677FC /* MyPageViewController.swift */; };
+		AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7114391FCC2E2400A677FC /* TrainingViewController.swift */; };
+		AA71144D1FCC2E2500A677FC /* Training.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71143A1FCC2E2400A677FC /* Training.storyboard */; };
+		AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */; };
+		AA71144F1FCC2E2500A677FC /* MarketPrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7114011FCC2DE800A677FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7113E41FCC2DE700A677FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7113EB1FCC2DE700A677FC;
+			remoteInfo = Coinjet;
+		};
+		AA71140C1FCC2DE800A677FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7113E41FCC2DE700A677FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7113EB1FCC2DE700A677FC;
+			remoteInfo = Coinjet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7113F61FCC2DE700A677FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7113F91FCC2DE700A677FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7113FB1FCC2DE700A677FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7114001FCC2DE800A677FC /* CoinjetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinjetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7114041FCC2DE800A677FC /* CoinjetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinjetTests.swift; sourceTree = "<group>"; };
+		AA7114061FCC2DE800A677FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA71140B1FCC2DE800A677FC /* CoinjetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinjetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA71140F1FCC2DE800A677FC /* CoinjetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinjetUITests.swift; sourceTree = "<group>"; };
+		AA7114111FCC2DE800A677FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA71141E1FCC2E2300A677FC /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AA7114201FCC2E2300A677FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tab.storyboard; sourceTree = "<group>"; };
+		AA7114231FCC2E2300A677FC /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AA7114261FCC2E2300A677FC /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AA7114281FCC2E2300A677FC /* KakaoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoManager.swift; sourceTree = "<group>"; };
+		AA71142A1FCC2E2400A677FC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AA71142B1FCC2E2400A677FC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA71142D1FCC2E2400A677FC /* Community.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Community.storyboard; sourceTree = "<group>"; };
+		AA71142E1FCC2E2400A677FC /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		AA7114361FCC2E2400A677FC /* MyPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		AA7114371FCC2E2400A677FC /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		AA7114391FCC2E2400A677FC /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		AA71143A1FCC2E2400A677FC /* Training.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
+		AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPriceViewController.swift; sourceTree = "<group>"; };
+		AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MarketPrice.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7113E91FCC2DE700A677FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7113FD1FCC2DE800A677FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7114081FCC2DE800A677FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7113E31FCC2DE700A677FC = {
+			isa = PBXGroup;
+			children = (
+				AA7113EE1FCC2DE700A677FC /* Coinjet */,
+				AA7114031FCC2DE800A677FC /* CoinjetTests */,
+				AA71140E1FCC2DE800A677FC /* CoinjetUITests */,
+				AA7113ED1FCC2DE700A677FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7113ED1FCC2DE700A677FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7113EC1FCC2DE700A677FC /* Coinjet.app */,
+				AA7114001FCC2DE800A677FC /* CoinjetTests.xctest */,
+				AA71140B1FCC2DE800A677FC /* CoinjetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7113EE1FCC2DE700A677FC /* Coinjet */ = {
+			isa = PBXGroup;
+			children = (
+				AA71142F1FCC2E2400A677FC /* Supporting Files */,
+				AA7114211FCC2E2300A677FC /* Common */,
+				AA71141D1FCC2E2300A677FC /* Tab */,
+				AA7114291FCC2E2400A677FC /* Home */,
+				AA71143B1FCC2E2400A677FC /* MarketPrice */,
+				AA7114381FCC2E2400A677FC /* Training */,
+				AA71142C1FCC2E2400A677FC /* Community */,
+				AA7114351FCC2E2400A677FC /* MyPage */,
+				AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */,
+			);
+			path = Coinjet;
+			sourceTree = "<group>";
+		};
+		AA7114031FCC2DE800A677FC /* CoinjetTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114041FCC2DE800A677FC /* CoinjetTests.swift */,
+				AA7114061FCC2DE800A677FC /* Info.plist */,
+			);
+			path = CoinjetTests;
+			sourceTree = "<group>";
+		};
+		AA71140E1FCC2DE800A677FC /* CoinjetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA71140F1FCC2DE800A677FC /* CoinjetUITests.swift */,
+				AA7114111FCC2DE800A677FC /* Info.plist */,
+			);
+			path = CoinjetUITests;
+			sourceTree = "<group>";
+		};
+		AA71141D1FCC2E2300A677FC /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				AA71141E1FCC2E2300A677FC /* TabViewController.swift */,
+				AA71141F1FCC2E2300A677FC /* Tab.storyboard */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		AA7114211FCC2E2300A677FC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114221FCC2E2300A677FC /* Extension */,
+				AA7114241FCC2E2300A677FC /* Manager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA7114221FCC2E2300A677FC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114231FCC2E2300A677FC /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA7114241FCC2E2300A677FC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114251FCC2E2300A677FC /* APIManager */,
+				AA7114271FCC2E2300A677FC /* KakaoManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AA7114251FCC2E2300A677FC /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114261FCC2E2300A677FC /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		AA7114271FCC2E2300A677FC /* KakaoManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114281FCC2E2300A677FC /* KakaoManager.swift */,
+			);
+			path = KakaoManager;
+			sourceTree = "<group>";
+		};
+		AA7114291FCC2E2400A677FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA71142B1FCC2E2400A677FC /* HomeViewController.swift */,
+				AA71142A1FCC2E2400A677FC /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA71142C1FCC2E2400A677FC /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				AA71142E1FCC2E2400A677FC /* CommunityViewController.swift */,
+				AA71142D1FCC2E2400A677FC /* Community.storyboard */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		AA71142F1FCC2E2400A677FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7113FB1FCC2DE700A677FC /* Info.plist */,
+				AA7114301FCC2E2400A677FC /* Assets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7114301FCC2E2400A677FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA7113F61FCC2DE700A677FC /* Assets.xcassets */,
+				AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AA7114351FCC2E2400A677FC /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114371FCC2E2400A677FC /* MyPageViewController.swift */,
+				AA7114361FCC2E2400A677FC /* MyPage.storyboard */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		AA7114381FCC2E2400A677FC /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				AA7114391FCC2E2400A677FC /* TrainingViewController.swift */,
+				AA71143A1FCC2E2400A677FC /* Training.storyboard */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		AA71143B1FCC2E2400A677FC /* MarketPrice */ = {
+			isa = PBXGroup;
+			children = (
+				AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */,
+				AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */,
+			);
+			path = MarketPrice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7113EB1FCC2DE700A677FC /* Coinjet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7114141FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "Coinjet" */;
+			buildPhases = (
+				AA7113E81FCC2DE700A677FC /* Sources */,
+				AA7113E91FCC2DE700A677FC /* Frameworks */,
+				AA7113EA1FCC2DE700A677FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coinjet;
+			productName = Coinjet;
+			productReference = AA7113EC1FCC2DE700A677FC /* Coinjet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7113FF1FCC2DE800A677FC /* CoinjetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7114171FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetTests" */;
+			buildPhases = (
+				AA7113FC1FCC2DE800A677FC /* Sources */,
+				AA7113FD1FCC2DE800A677FC /* Frameworks */,
+				AA7113FE1FCC2DE800A677FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7114021FCC2DE800A677FC /* PBXTargetDependency */,
+			);
+			name = CoinjetTests;
+			productName = CoinjetTests;
+			productReference = AA7114001FCC2DE800A677FC /* CoinjetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA71140A1FCC2DE800A677FC /* CoinjetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA71141A1FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetUITests" */;
+			buildPhases = (
+				AA7114071FCC2DE800A677FC /* Sources */,
+				AA7114081FCC2DE800A677FC /* Frameworks */,
+				AA7114091FCC2DE800A677FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA71140D1FCC2DE800A677FC /* PBXTargetDependency */,
+			);
+			name = CoinjetUITests;
+			productName = CoinjetUITests;
+			productReference = AA71140B1FCC2DE800A677FC /* CoinjetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7113E41FCC2DE700A677FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Daeyun Ethan Kim";
+				TargetAttributes = {
+					AA7113EB1FCC2DE700A677FC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AA7113FF1FCC2DE800A677FC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7113EB1FCC2DE700A677FC;
+					};
+					AA71140A1FCC2DE800A677FC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7113EB1FCC2DE700A677FC;
+					};
+				};
+			};
+			buildConfigurationList = AA7113E71FCC2DE700A677FC /* Build configuration list for PBXProject "Coinjet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7113E31FCC2DE700A677FC;
+			productRefGroup = AA7113ED1FCC2DE700A677FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7113EB1FCC2DE700A677FC /* Coinjet */,
+				AA7113FF1FCC2DE800A677FC /* CoinjetTests */,
+				AA71140A1FCC2DE800A677FC /* CoinjetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7113EA1FCC2DE700A677FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA71144D1FCC2E2500A677FC /* Training.storyboard in Resources */,
+				AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */,
+				AA71143F1FCC2E2500A677FC /* Tab.storyboard in Resources */,
+				AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */,
+				AA71144A1FCC2E2500A677FC /* MyPage.storyboard in Resources */,
+				AA7114451FCC2E2500A677FC /* Community.storyboard in Resources */,
+				AA71144F1FCC2E2500A677FC /* MarketPrice.storyboard in Resources */,
+				AA7114431FCC2E2500A677FC /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7113FE1FCC2DE800A677FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7114091FCC2DE800A677FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7113E81FCC2DE700A677FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
+				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
+				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
+				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
+				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
+				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
+				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
+				AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */,
+				AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */,
+				AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7113FC1FCC2DE800A677FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7114051FCC2DE800A677FC /* CoinjetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7114071FCC2DE800A677FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7114101FCC2DE800A677FC /* CoinjetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7114021FCC2DE800A677FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7113EB1FCC2DE700A677FC /* Coinjet */;
+			targetProxy = AA7114011FCC2DE800A677FC /* PBXContainerItemProxy */;
+		};
+		AA71140D1FCC2DE800A677FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7113EB1FCC2DE700A677FC /* Coinjet */;
+			targetProxy = AA71140C1FCC2DE800A677FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7113F91FCC2DE700A677FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA71141F1FCC2E2300A677FC /* Tab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7114201FCC2E2300A677FC /* Base */,
+			);
+			name = Tab.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7114121FCC2DE800A677FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7114131FCC2DE800A677FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7114151FCC2DE800A677FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = "$(SRCROOT)/Coinjet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.Coinjet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7114161FCC2DE800A677FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = "$(SRCROOT)/Coinjet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.Coinjet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA7114181FCC2DE800A677FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = CoinjetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.CoinjetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coinjet.app/Coinjet";
+			};
+			name = Debug;
+		};
+		AA7114191FCC2DE800A677FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = CoinjetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.CoinjetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coinjet.app/Coinjet";
+			};
+			name = Release;
+		};
+		AA71141B1FCC2DE800A677FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = CoinjetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.CoinjetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coinjet;
+			};
+			name = Debug;
+		};
+		AA71141C1FCC2DE800A677FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YBHS36EVG;
+				INFOPLIST_FILE = CoinjetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KD.CoinjetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coinjet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7113E71FCC2DE700A677FC /* Build configuration list for PBXProject "Coinjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7114121FCC2DE800A677FC /* Debug */,
+				AA7114131FCC2DE800A677FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7114141FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "Coinjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7114151FCC2DE800A677FC /* Debug */,
+				AA7114161FCC2DE800A677FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7114171FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7114181FCC2DE800A677FC /* Debug */,
+				AA7114191FCC2DE800A677FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA71141A1FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA71141B1FCC2DE800A677FC /* Debug */,
+				AA71141C1FCC2DE800A677FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7113E41FCC2DE700A677FC /* Project object */;
+}
