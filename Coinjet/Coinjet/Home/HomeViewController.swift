@@ -10,9 +10,26 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var headerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        let gradient = CAGradientLayer()
+        gradient.startPoint = CGPoint(x: 1.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 0.0, y: 1.0)
+        
+        gradient.colors = [
+            UIColor(rgb: 0x9C6CE6).cgColor,
+            UIColor(rgb: 0x469BD6).cgColor
+        ]
+        
+        gradient.frame = headerView.bounds
+        
+        headerView.layer.insertSublayer(gradient, at: 0)
+        
+        
         // Do any additional setup after loading the view.
     }
 

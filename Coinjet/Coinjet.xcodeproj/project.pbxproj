@@ -12,6 +12,7 @@
 		4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A41FE4D95600B9D6BE /* TestAPI.swift */; };
 		4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */; };
 		4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A61FE4D95700B9D6BE /* API.swift */; };
+		4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
@@ -64,6 +65,7 @@
 		4A5297A41FE4D95600B9D6BE /* TestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
 		4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		4A5297A61FE4D95700B9D6BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7114231FCC2E2300A677FC /* Extension.swift */,
+				4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
+				4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */,
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
