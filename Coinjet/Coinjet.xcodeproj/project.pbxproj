@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8C4232AB083B99EE0C3F82 /* Pods_CoinjetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631EDCEFBFC5E369194C684 /* Pods_CoinjetTests.framework */; };
+		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
+		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
 		AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
 		AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */; };
@@ -47,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134E3918DF633B9D1ED1C0A0 /* Pods-CoinjetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetUITests/Pods-CoinjetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1631EDCEFBFC5E369194C684 /* Pods_CoinjetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinjetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F8AF59D086ACD1D33EFBBB /* Pods-CoinjetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetUITests/Pods-CoinjetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coinjet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinjetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4537060267368BD3E44BE51F /* Pods-Coinjet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.release.xcconfig"; sourceTree = "<group>"; };
+		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7113F61FCC2DE700A677FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +84,7 @@
 		AA71143A1FCC2E2400A677FC /* Training.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
 		AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPriceViewController.swift; sourceTree = "<group>"; };
 		AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MarketPrice.storyboard; sourceTree = "<group>"; };
+		C8D733926218F8B14ACD7C05 /* Pods-CoinjetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8C4232AB083B99EE0C3F82 /* Pods_CoinjetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C90281CB46E580107E2A8E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */,
+				4537060267368BD3E44BE51F /* Pods-Coinjet.release.xcconfig */,
+				52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */,
+				C8D733926218F8B14ACD7C05 /* Pods-CoinjetTests.release.xcconfig */,
+				31F8AF59D086ACD1D33EFBBB /* Pods-CoinjetUITests.debug.xcconfig */,
+				134E3918DF633B9D1ED1C0A0 /* Pods-CoinjetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F9DA5C4F63E18E8295C8E3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */,
+				1631EDCEFBFC5E369194C684 /* Pods_CoinjetTests.framework */,
+				37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA7113E31FCC2DE700A677FC = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +145,8 @@
 				AA7114031FCC2DE800A677FC /* CoinjetTests */,
 				AA71140E1FCC2DE800A677FC /* CoinjetUITests */,
 				AA7113ED1FCC2DE700A677FC /* Products */,
+				2C90281CB46E580107E2A8E5 /* Pods */,
+				9F9DA5C4F63E18E8295C8E3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA7114141FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "Coinjet" */;
 			buildPhases = (
+				0BA50C5D3C2C60ECE0DE8948 /* [CP] Check Pods Manifest.lock */,
 				AA7113E81FCC2DE700A677FC /* Sources */,
 				AA7113E91FCC2DE700A677FC /* Frameworks */,
 				AA7113EA1FCC2DE700A677FC /* Resources */,
+				383D4B129C7FA0223E2830DF /* [CP] Embed Pods Frameworks */,
+				CB23E03E2973DAE2D4A2F5DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA7114171FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetTests" */;
 			buildPhases = (
+				1E618F23A87D694E55C901E8 /* [CP] Check Pods Manifest.lock */,
 				AA7113FC1FCC2DE800A677FC /* Sources */,
 				AA7113FD1FCC2DE800A677FC /* Frameworks */,
 				AA7113FE1FCC2DE800A677FC /* Resources */,
+				67CF5EE29F9C77E76DE490F6 /* [CP] Embed Pods Frameworks */,
+				204C160114D21E7727C81547 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA71141A1FCC2DE800A677FC /* Build configuration list for PBXNativeTarget "CoinjetUITests" */;
 			buildPhases = (
+				43D018BC4BC7C415636734D5 /* [CP] Check Pods Manifest.lock */,
 				AA7114071FCC2DE800A677FC /* Sources */,
 				AA7114081FCC2DE800A677FC /* Frameworks */,
 				AA7114091FCC2DE800A677FC /* Resources */,
+				D53ACCC0A25D4FDF06AA8D07 /* [CP] Embed Pods Frameworks */,
+				0E4B885AB59DD3D8CB6F533B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +450,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA50C5D3C2C60ECE0DE8948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coinjet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E4B885AB59DD3D8CB6F533B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinjetUITests/Pods-CoinjetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E618F23A87D694E55C901E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinjetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204C160114D21E7727C81547 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		383D4B129C7FA0223E2830DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D018BC4BC7C415636734D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinjetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67CF5EE29F9C77E76DE490F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB23E03E2973DAE2D4A2F5DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53ACCC0A25D4FDF06AA8D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinjetUITests/Pods-CoinjetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA7113E81FCC2DE700A677FC /* Sources */ = {
@@ -580,6 +783,7 @@
 		};
 		AA7114151FCC2DE800A677FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -595,6 +799,7 @@
 		};
 		AA7114161FCC2DE800A677FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4537060267368BD3E44BE51F /* Pods-Coinjet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +815,7 @@
 		};
 		AA7114181FCC2DE800A677FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -627,6 +833,7 @@
 		};
 		AA7114191FCC2DE800A677FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D733926218F8B14ACD7C05 /* Pods-CoinjetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,6 +851,7 @@
 		};
 		AA71141B1FCC2DE800A677FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F8AF59D086ACD1D33EFBBB /* Pods-CoinjetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -660,6 +868,7 @@
 		};
 		AA71141C1FCC2DE800A677FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134E3918DF633B9D1ED1C0A0 /* Pods-CoinjetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
