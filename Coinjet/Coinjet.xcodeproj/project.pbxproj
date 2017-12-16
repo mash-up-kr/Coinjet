@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3F8C4232AB083B99EE0C3F82 /* Pods_CoinjetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631EDCEFBFC5E369194C684 /* Pods_CoinjetTests.framework */; };
+		4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A31FE4D95600B9D6BE /* AlamofireAPIRequest.swift */; };
+		4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A41FE4D95600B9D6BE /* TestAPI.swift */; };
+		4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */; };
+		4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A61FE4D95700B9D6BE /* API.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
@@ -56,6 +60,10 @@
 		33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coinjet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinjetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4537060267368BD3E44BE51F /* Pods-Coinjet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.release.xcconfig"; sourceTree = "<group>"; };
+		4A5297A31FE4D95600B9D6BE /* AlamofireAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireAPIRequest.swift; sourceTree = "<group>"; };
+		4A5297A41FE4D95600B9D6BE /* TestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
+		4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		4A5297A61FE4D95700B9D6BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +240,10 @@
 		AA7114251FCC2E2300A677FC /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
+				4A5297A31FE4D95600B9D6BE /* AlamofireAPIRequest.swift */,
+				4A5297A61FE4D95700B9D6BE /* API.swift */,
+				4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */,
+				4A5297A41FE4D95600B9D6BE /* TestAPI.swift */,
 				AA7114261FCC2E2300A677FC /* APIManager.swift */,
 			);
 			path = APIManager;
@@ -616,8 +628,12 @@
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
+				4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */,
+				4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */,
+				4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */,
 				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
 				AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */,
+				4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */,
 				AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */,
 				AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */,
 			);
