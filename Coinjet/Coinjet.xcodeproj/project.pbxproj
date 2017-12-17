@@ -13,6 +13,17 @@
 		4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */; };
 		4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A61FE4D95700B9D6BE /* API.swift */; };
 		4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */; };
+		4AB20EF71FE5038100C1EA03 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EE91FE5038100C1EA03 /* GradientDrawingLayer.swift */; };
+		4AB20EF81FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EEA1FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift */; };
+		4AB20EF91FE5038100C1EA03 /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EEB1FE5038100C1EA03 /* LineDrawingLayer.swift */; };
+		4AB20EFA1FE5038100C1EA03 /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EEC1FE5038100C1EA03 /* FillDrawingLayer.swift */; };
+		4AB20EFB1FE5038100C1EA03 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EED1FE5038100C1EA03 /* ScrollableGraphView.swift */; };
+		4AB20EFC1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EEF1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		4AB20EFD1FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF01FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift */; };
+		4AB20EFE1FE5038100C1EA03 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF31FE5038100C1EA03 /* GraphPointAnimation.swift */; };
+		4AB20EFF1FE5038100C1EA03 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF41FE5038100C1EA03 /* GraphPoint.swift */; };
+		4AB20F001FE5038100C1EA03 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF51FE5038100C1EA03 /* Plot.swift */; };
+		4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF61FE5038100C1EA03 /* LinePlot.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
@@ -66,6 +77,17 @@
 		4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		4A5297A61FE4D95700B9D6BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		4AB20EE91FE5038100C1EA03 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		4AB20EEA1FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		4AB20EEB1FE5038100C1EA03 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDrawingLayer.swift; sourceTree = "<group>"; };
+		4AB20EEC1FE5038100C1EA03 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDrawingLayer.swift; sourceTree = "<group>"; };
+		4AB20EED1FE5038100C1EA03 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
+		4AB20EEF1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		4AB20EF01FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		4AB20EF31FE5038100C1EA03 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPointAnimation.swift; sourceTree = "<group>"; };
+		4AB20EF41FE5038100C1EA03 /* GraphPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPoint.swift; sourceTree = "<group>"; };
+		4AB20EF51FE5038100C1EA03 /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		4AB20EF61FE5038100C1EA03 /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +158,56 @@
 				134E3918DF633B9D1ED1C0A0 /* Pods-CoinjetUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AB20EE71FE5038100C1EA03 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20EE81FE5038100C1EA03 /* Drawing */,
+				4AB20EED1FE5038100C1EA03 /* ScrollableGraphView.swift */,
+				4AB20EEE1FE5038100C1EA03 /* Protocols */,
+				4AB20EF11FE5038100C1EA03 /* Plots */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		4AB20EE81FE5038100C1EA03 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20EE91FE5038100C1EA03 /* GradientDrawingLayer.swift */,
+				4AB20EEA1FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift */,
+				4AB20EEB1FE5038100C1EA03 /* LineDrawingLayer.swift */,
+				4AB20EEC1FE5038100C1EA03 /* FillDrawingLayer.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		4AB20EEE1FE5038100C1EA03 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20EEF1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift */,
+				4AB20EF01FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4AB20EF11FE5038100C1EA03 /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20EF21FE5038100C1EA03 /* Animation */,
+				4AB20EF51FE5038100C1EA03 /* Plot.swift */,
+				4AB20EF61FE5038100C1EA03 /* LinePlot.swift */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
+		4AB20EF21FE5038100C1EA03 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20EF31FE5038100C1EA03 /* GraphPointAnimation.swift */,
+				4AB20EF41FE5038100C1EA03 /* GraphPoint.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		9F9DA5C4F63E18E8295C8E3A /* Frameworks */ = {
@@ -265,6 +337,7 @@
 			children = (
 				AA71142B1FCC2E2400A677FC /* HomeViewController.swift */,
 				AA71142A1FCC2E2400A677FC /* Home.storyboard */,
+				4AB20EE71FE5038100C1EA03 /* GraphView */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -541,12 +614,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
@@ -625,20 +700,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB20EFC1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
 				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
 				4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */,
+				4AB20EF91FE5038100C1EA03 /* LineDrawingLayer.swift in Sources */,
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
+				4AB20EFB1FE5038100C1EA03 /* ScrollableGraphView.swift in Sources */,
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
+				4AB20EFD1FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
+				4AB20EFA1FE5038100C1EA03 /* FillDrawingLayer.swift in Sources */,
+				4AB20EF81FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
 				4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */,
 				4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */,
+				4AB20EFF1FE5038100C1EA03 /* GraphPoint.swift in Sources */,
 				4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */,
 				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
+				4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */,
+				4AB20F001FE5038100C1EA03 /* Plot.swift in Sources */,
 				AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */,
+				4AB20EF71FE5038100C1EA03 /* GradientDrawingLayer.swift in Sources */,
 				4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */,
 				AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */,
+				4AB20EFE1FE5038100C1EA03 /* GraphPointAnimation.swift in Sources */,
 				AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,13 +24,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYD-UD-Ivr" userLabel="HeaderView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="289"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NsW-ff-NGQ" userLabel="TabBarView">
                                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COINJET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvh-uS-v49">
-                                                <rect key="frame" x="150" y="12.5" width="74.5" height="20"/>
+                                                <rect key="frame" x="150" y="12.5" width="74.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -43,12 +43,53 @@
                                             <constraint firstItem="Uvh-uS-v49" firstAttribute="centerX" secondItem="NsW-ff-NGQ" secondAttribute="centerX" id="vFD-FH-USj"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5A-H5-uY1" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="271"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ymr-45-gzP" userLabel="priceStackView">
+                                                <rect key="frame" x="42" y="71" width="291.5" height="54"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13,832,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-FV-da8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="251" height="54"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KRW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prr-oe-Kaa">
+                                                        <rect key="frame" x="254" y="27" width="37.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ymr-45-gzP" firstAttribute="centerX" secondItem="r5A-H5-uY1" secondAttribute="centerX" id="O0B-xL-lM2"/>
+                                            <constraint firstItem="ymr-45-gzP" firstAttribute="top" secondItem="r5A-H5-uY1" secondAttribute="top" constant="71" id="ZbB-a1-1ea"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dz6-2g-v7D" userLabel="graphView">
+                                        <rect key="frame" x="0.0" y="335" width="375" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6We-Ne-xk0"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.61176470588235299" green="0.42352941176470588" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="NsW-ff-NGQ" secondAttribute="trailing" id="7Uz-pv-K0d"/>
-                                    <constraint firstAttribute="height" constant="289" id="ek6-fP-fjE"/>
+                                    <constraint firstAttribute="bottom" secondItem="dz6-2g-v7D" secondAttribute="bottom" id="84T-an-29N"/>
+                                    <constraint firstItem="r5A-H5-uY1" firstAttribute="top" secondItem="NsW-ff-NGQ" secondAttribute="bottom" id="Bl6-Nc-v6a"/>
+                                    <constraint firstAttribute="trailing" secondItem="r5A-H5-uY1" secondAttribute="trailing" id="Tvp-Hv-dGV"/>
+                                    <constraint firstItem="dz6-2g-v7D" firstAttribute="top" secondItem="r5A-H5-uY1" secondAttribute="bottom" id="alI-j4-Plc"/>
+                                    <constraint firstItem="dz6-2g-v7D" firstAttribute="leading" secondItem="pYD-UD-Ivr" secondAttribute="leading" id="dfT-tB-NDj"/>
+                                    <constraint firstAttribute="height" constant="375" id="ek6-fP-fjE"/>
                                     <constraint firstItem="NsW-ff-NGQ" firstAttribute="leading" secondItem="pYD-UD-Ivr" secondAttribute="leading" id="kBq-DM-6As"/>
+                                    <constraint firstItem="r5A-H5-uY1" firstAttribute="leading" secondItem="pYD-UD-Ivr" secondAttribute="leading" id="pEF-wh-NsW"/>
+                                    <constraint firstAttribute="trailing" secondItem="dz6-2g-v7D" secondAttribute="trailing" id="rQs-mt-3Jf"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -64,6 +105,7 @@
                     <tabBarItem key="tabBarItem" title="Home" id="PEn-p9-Sbc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="graphView" destination="dz6-2g-v7D" id="7d6-gQ-dhI"/>
                         <outlet property="headerView" destination="pYD-UD-Ivr" id="KiL-JP-NlI"/>
                     </connections>
                 </viewController>
