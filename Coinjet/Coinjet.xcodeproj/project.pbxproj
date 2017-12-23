@@ -26,6 +26,11 @@
 		4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF61FE5038100C1EA03 /* LinePlot.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
+		805428FA1FEE1D2700F76B70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F31FEE1D2600F76B70 /* DetailViewController.swift */; };
+		805428FB1FEE1D2700F76B70 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F51FEE1D2600F76B70 /* Comment.swift */; };
+		805428FC1FEE1D2700F76B70 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F61FEE1D2600F76B70 /* Content.swift */; };
+		805428FD1FEE1D2700F76B70 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F71FEE1D2700F76B70 /* NewPostViewController.swift */; };
+		805428FE1FEE1D2700F76B70 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */; };
 		80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6111FE4FA8100CD38E5 /* MarketPriceViews.swift */; };
 		80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */; };
 		80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */; };
@@ -94,6 +99,11 @@
 		4AB20EF61FE5038100C1EA03 /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
+		805428F31FEE1D2600F76B70 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		805428F51FEE1D2600F76B70 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		805428F61FEE1D2600F76B70 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		805428F71FEE1D2700F76B70 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		80ACE6111FE4FA8100CD38E5 /* MarketPriceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViews.swift; sourceTree = "<group>"; };
 		80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViewData.swift; sourceTree = "<group>"; };
 		80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPricePagerTabController.swift; sourceTree = "<group>"; };
@@ -216,6 +226,23 @@
 				4AB20EF41FE5038100C1EA03 /* GraphPoint.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		805428F41FEE1D2600F76B70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				805428F51FEE1D2600F76B70 /* Comment.swift */,
+				805428F61FEE1D2600F76B70 /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		805428F81FEE1D2700F76B70 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		9F9DA5C4F63E18E8295C8E3A /* Frameworks */ = {
@@ -353,6 +380,10 @@
 		AA71142C1FCC2E2400A677FC /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				805428F81FEE1D2700F76B70 /* CustomViews */,
+				805428F31FEE1D2600F76B70 /* DetailViewController.swift */,
+				805428F41FEE1D2600F76B70 /* Models */,
+				805428F71FEE1D2700F76B70 /* NewPostViewController.swift */,
 				AA71142E1FCC2E2400A677FC /* CommunityViewController.swift */,
 				AA71142D1FCC2E2400A677FC /* Community.storyboard */,
 			);
@@ -716,6 +747,7 @@
 				4AB20EFC1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
 				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
 				80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */,
+				805428FC1FEE1D2700F76B70 /* Content.swift in Sources */,
 				4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */,
 				4AB20EF91FE5038100C1EA03 /* LineDrawingLayer.swift in Sources */,
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
@@ -723,6 +755,7 @@
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
+				805428FD1FEE1D2700F76B70 /* NewPostViewController.swift in Sources */,
 				4AB20EFD1FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
 				80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */,
@@ -734,12 +767,15 @@
 				4AB20EFF1FE5038100C1EA03 /* GraphPoint.swift in Sources */,
 				4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */,
 				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
+				805428FE1FEE1D2700F76B70 /* ContentTableViewCell.swift in Sources */,
 				4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */,
 				4AB20F001FE5038100C1EA03 /* Plot.swift in Sources */,
 				AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */,
 				4AB20EF71FE5038100C1EA03 /* GradientDrawingLayer.swift in Sources */,
+				805428FB1FEE1D2700F76B70 /* Comment.swift in Sources */,
 				4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */,
 				AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */,
+				805428FA1FEE1D2700F76B70 /* DetailViewController.swift in Sources */,
 				4AB20EFE1FE5038100C1EA03 /* GraphPointAnimation.swift in Sources */,
 				AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */,
 			);
