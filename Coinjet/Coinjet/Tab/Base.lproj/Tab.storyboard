@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nXG-BF-2pt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nXG-BF-2pt">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Tab View Controller-->
         <scene sceneID="pFT-2q-A6E">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nXG-BF-2pt" customClass="TabViewController" customModule="IDB" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nXG-BF-2pt" customClass="TabViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ix9-TO-XOO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -40,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="642" y="-155"/>
         </scene>
-        <!--MarketPrice-->
+        <!--MarketPricePagerTab-->
         <scene sceneID="fvV-Ay-tuV">
             <objects>
-                <viewControllerPlaceholder storyboardName="MarketPrice" id="Ti7-3F-mED" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="MarketPricePagerTab" id="Ti7-3F-mED" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="MarketPrice" id="9Nx-c2-5lx"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NaN-JN-vmM" userLabel="First Responder" sceneMemberID="firstResponder"/>

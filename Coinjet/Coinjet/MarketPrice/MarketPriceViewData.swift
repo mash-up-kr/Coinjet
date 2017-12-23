@@ -6,4 +6,13 @@
 //  Copyright © 2017년 Daeyun Ethan Kim. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct MarketPriceCellData {
+    
+    var image: UIImage
+    var title: String
+    var value: String
+    var unit: String
+    
+}
