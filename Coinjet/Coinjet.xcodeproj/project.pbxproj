@@ -14,6 +14,10 @@
 		4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A61FE4D95700B9D6BE /* API.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
+		80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6111FE4FA8100CD38E5 /* MarketPriceViews.swift */; };
+		80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */; };
+		80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */; };
+		80ACE6181FE508CC00CD38E5 /* MarketPricePagerTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
 		AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
 		AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */; };
@@ -66,6 +70,10 @@
 		4A5297A61FE4D95700B9D6BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
+		80ACE6111FE4FA8100CD38E5 /* MarketPriceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViews.swift; sourceTree = "<group>"; };
+		80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViewData.swift; sourceTree = "<group>"; };
+		80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPricePagerTabController.swift; sourceTree = "<group>"; };
+		80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MarketPricePagerTab.storyboard; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7113F61FCC2DE700A677FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -314,7 +322,11 @@
 		AA71143B1FCC2E2400A677FC /* MarketPrice */ = {
 			isa = PBXGroup;
 			children = (
+				80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */,
 				AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */,
+				80ACE6111FE4FA8100CD38E5 /* MarketPriceViews.swift */,
+				80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */,
+				80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */,
 				AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */,
 			);
 			path = MarketPrice;
@@ -436,6 +448,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80ACE6181FE508CC00CD38E5 /* MarketPricePagerTab.storyboard in Resources */,
 				AA71144D1FCC2E2500A677FC /* Training.storyboard in Resources */,
 				AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */,
 				AA71143F1FCC2E2500A677FC /* Tab.storyboard in Resources */,
@@ -623,12 +636,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
+				80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */,
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
+				80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */,
 				4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */,
+				80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */,
 				4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */,
 				4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */,
 				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
