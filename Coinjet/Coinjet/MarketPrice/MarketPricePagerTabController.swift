@@ -15,23 +15,16 @@ class MarketPricePagerTabController: ButtonBarPagerTabStripViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
-        setSetting()
+        initView()
+        super.viewDidLoad()
+    }
+    
+    fileprivate func initView() {
+        navigationController?.navigationBar.shadowImage = UIImage()
         
         buttonBarView = tabButtonBarView
         containerView = scrollView
         
-        navigationController?.navigationBar.shadowImage = UIImage()
-        
-        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, _, changeCurrentIndex: Bool, _) -> Void in
-            guard changeCurrentIndex == true else { return }
-            oldCell?.label.textColor = .black
-            newCell?.label.textColor = .black
-        }
-        
-        super.viewDidLoad()
-    }
-    
-    fileprivate func setSetting() {
         settings.style.buttonBarBackgroundColor = .white
         settings.style.buttonBarItemBackgroundColor = .white
         settings.style.selectedBarBackgroundColor = .black
@@ -43,6 +36,12 @@ class MarketPricePagerTabController: ButtonBarPagerTabStripViewController {
         settings.style.buttonBarLeftContentInset = 0
         settings.style.buttonBarRightContentInset = 0
         settings.style.buttonBarItemFont = UIFont(name: "Helvetica Neue", size: 13)!
+        
+        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, _, changeCurrentIndex: Bool, _) -> Void in
+            guard changeCurrentIndex == true else { return }
+            oldCell?.label.textColor = .black
+            newCell?.label.textColor = .black
+        }
     }
     
     // MARK: - PagerTabStripDataSource
