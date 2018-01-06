@@ -144,6 +144,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="avI-s2-tsN"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="커뮤니티" image="community" id="Zdh-68-xSV"/>
                     <navigationItem key="navigationItem" title="커뮤니티" id="Pen-wP-4hc">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="bNt-cg-Bli">
                             <connections>
@@ -161,7 +162,7 @@
             </objects>
             <point key="canvasLocation" x="468" y="164.16791604197903"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--커뮤니티-->
         <scene sceneID="4ft-pf-eWj">
             <objects>
                 <viewController id="8Pc-wK-Kz0" customClass="DetailViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
@@ -190,6 +191,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vEs-pY-7jL"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="커뮤니티" image="community" id="eGx-ln-xaZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sSS-vj-Pp8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -332,4 +335,7 @@
             <point key="canvasLocation" x="-290" y="164"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="community" width="25" height="23"/>
+    </resources>
 </document>
