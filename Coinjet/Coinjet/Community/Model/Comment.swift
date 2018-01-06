@@ -1,5 +1,5 @@
 //
-//  Content.swift
+//  Comment.swift
 //  Coinjet
 //
 //  Created by Daeyun Ethan Kim on 23/12/2017.
@@ -8,15 +8,10 @@
 
 import Foundation
 
-struct Content {
-    let contentID: String
-    let subject: String
-    let content: String
+struct Comment {
+    let commentID: String
+    let comment: String
     let createDate: String
-    let viewCount: Int = 0
     
-    let commentCount: Int = 0
-    var comments: [Comment]?
     let userName: String
-    
 }
