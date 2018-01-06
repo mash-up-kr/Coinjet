@@ -21,6 +21,12 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
+        
+        // Do any additional setup after loading the view.
+    }
+
+    override func viewDidLayoutSubviews() {
         
         let gradient = CAGradientLayer()
         gradient.startPoint = CGPoint(x: 1.0, y: 0.0)
@@ -41,26 +47,8 @@ class HomeViewController: UIViewController {
         graphContentView.snp.makeConstraints { (make) in
             make.bottom.top.right.left.equalTo(graphView).offset(0)
         }
-        
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension HomeViewController: ScrollableGraphViewDataSource {
