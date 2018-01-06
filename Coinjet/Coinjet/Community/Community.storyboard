@@ -10,17 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Community-->
+        <!--커뮤니티-->
         <scene sceneID="8SV-7u-DxD">
             <objects>
-                <viewController id="2dT-kA-TmN" customClass="CommunityViewController" customModule="IDB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2dT-kA-TmN" customClass="CommunityViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UMX-F9-Kme">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="avI-s2-tsN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Community" id="oqO-0O-WX4"/>
+                    <tabBarItem key="tabBarItem" title="커뮤니티" image="community" id="oqO-0O-WX4"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hk-vF-yVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +28,7 @@
             <point key="canvasLocation" x="129" y="165"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="community" width="25" height="23"/>
+    </resources>
 </document>

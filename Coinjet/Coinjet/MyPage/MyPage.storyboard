@@ -10,17 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MyPage-->
+        <!--마이페이지-->
         <scene sceneID="uPl-D9-gIM">
             <objects>
-                <viewController id="AHd-dl-xqd" customClass="MyPageViewController" customModule="IDB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AHd-dl-xqd" customClass="MyPageViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rmD-Hc-yUT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9u3-zG-GU3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MyPage" id="HtY-ph-HJC"/>
+                    <tabBarItem key="tabBarItem" title="마이페이지" image="mypage" id="HtY-ph-HJC"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSL-0M-KUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +28,7 @@
             <point key="canvasLocation" x="129" y="165"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mypage" width="23" height="23"/>
+    </resources>
 </document>
