@@ -30,6 +30,10 @@
 		80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */; };
 		80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */; };
 		80ACE6181FE508CC00CD38E5 /* MarketPricePagerTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */; };
+		AA48844F2000B331005AAB7F /* Widget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA48844D2000B331005AAB7F /* Widget.xcdatamodeld */; };
+		AA4884502000B3BE005AAB7F /* Widget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA48844D2000B331005AAB7F /* Widget.xcdatamodeld */; };
+		AA4884522000B3E0005AAB7F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4884512000B3E0005AAB7F /* CoreDataStack.swift */; };
+		AA48845B2000B917005AAB7F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4884512000B3E0005AAB7F /* CoreDataStack.swift */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
 		AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
 		AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */; };
@@ -128,6 +132,8 @@
 		80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViewData.swift; sourceTree = "<group>"; };
 		80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPricePagerTabController.swift; sourceTree = "<group>"; };
 		80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MarketPricePagerTab.storyboard; sourceTree = "<group>"; };
+		AA48844E2000B331005AAB7F /* Widget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Widget.xcdatamodel; sourceTree = "<group>"; };
+		AA4884512000B3E0005AAB7F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7113F61FCC2DE700A677FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -277,6 +283,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA48844C2000B2CA005AAB7F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA71142D1FCC2E2400A677FC /* Community.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AA4884532000B648005AAB7F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA4884542000B65A005AAB7F /* Helper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA4884542000B65A005AAB7F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AA4884552000B668005AAB7F /* DataHelper */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AA4884552000B668005AAB7F /* DataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AA4884562000B66F005AAB7F /* CoreData */,
+			);
+			path = DataHelper;
+			sourceTree = "<group>";
+		};
+		AA4884562000B66F005AAB7F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AA48844D2000B331005AAB7F /* Widget.xcdatamodeld */,
+				AA4884512000B3E0005AAB7F /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AA4884572000B682005AAB7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA7B92FC1FFBBB00000EA790 /* TodayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA4884582000B68B005AAB7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4884592000B697005AAB7F /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA4884592000B697005AAB7F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA7B92FE1FFBBB00000EA790 /* MainInterface.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AA48845A2000B6A8005AAB7F /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				AA7B93011FFBBB00000EA790 /* Info.plist */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
 		AA7113E31FCC2DE700A677FC = {
 			isa = PBXGroup;
 			children = (
@@ -404,12 +483,11 @@
 		AA71142C1FCC2E2400A677FC /* Community */ = {
 			isa = PBXGroup;
 			children = (
-				AA9DCA421FEE1ACC00D609BD /* CustomViews */,
-				AA9DCA3D1FEE1ACC00D609BD /* Models */,
+				AA9DCA421FEE1ACC00D609BD /* View */,
+				AA9DCA3D1FEE1ACC00D609BD /* Model */,
 				AA9DCA411FEE1ACC00D609BD /* DetailViewController.swift */,
 				AA9DCA401FEE1ACC00D609BD /* NewPostViewController.swift */,
 				AA71142E1FCC2E2400A677FC /* CommunityViewController.swift */,
-				AA71142D1FCC2E2400A677FC /* Community.storyboard */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -466,28 +544,30 @@
 		AA7B92FB1FFBBB00000EA790 /* Coin Widget */ = {
 			isa = PBXGroup;
 			children = (
-				AA7B92FC1FFBBB00000EA790 /* TodayViewController.swift */,
-				AA7B92FE1FFBBB00000EA790 /* MainInterface.storyboard */,
-				AA7B93011FFBBB00000EA790 /* Info.plist */,
+				AA48845A2000B6A8005AAB7F /* Supporting File */,
+				AA4884532000B648005AAB7F /* Common */,
+				AA4884582000B68B005AAB7F /* View */,
+				AA4884572000B682005AAB7F /* Controller */,
 			);
 			path = "Coin Widget";
 			sourceTree = "<group>";
 		};
-		AA9DCA3D1FEE1ACC00D609BD /* Models */ = {
+		AA9DCA3D1FEE1ACC00D609BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				AA9DCA3E1FEE1ACC00D609BD /* Comment.swift */,
 				AA9DCA3F1FEE1ACC00D609BD /* Content.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		AA9DCA421FEE1ACC00D609BD /* CustomViews */ = {
+		AA9DCA421FEE1ACC00D609BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA48844C2000B2CA005AAB7F /* Storyboard */,
 				AA9DCA431FEE1ACC00D609BD /* ContentTableViewCell.swift */,
 			);
-			path = CustomViews;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -830,10 +910,12 @@
 				AA9DCA471FEE1ACC00D609BD /* DetailViewController.swift in Sources */,
 				4AB20EFC1FE5038100C1EA03 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
 				AA71144C1FCC2E2500A677FC /* TrainingViewController.swift in Sources */,
+				AA48845B2000B917005AAB7F /* CoreDataStack.swift in Sources */,
 				80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */,
 				4A5297AC1FE4F31400B9D6BE /* UIColor+RGB.swift in Sources */,
 				4AB20EF91FE5038100C1EA03 /* LineDrawingLayer.swift in Sources */,
 				AA9DCA461FEE1ACC00D609BD /* NewPostViewController.swift in Sources */,
+				AA4884502000B3BE005AAB7F /* Widget.xcdatamodeld in Sources */,
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
 				4AB20EFB1FE5038100C1EA03 /* ScrollableGraphView.swift in Sources */,
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
@@ -884,7 +966,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4884522000B3E0005AAB7F /* CoreDataStack.swift in Sources */,
 				AA7B92FD1FFBBB00000EA790 /* TodayViewController.swift in Sources */,
+				AA48844F2000B331005AAB7F /* Widget.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1228,6 +1312,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA48844D2000B331005AAB7F /* Widget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA48844E2000B331005AAB7F /* Widget.xcdatamodel */,
+			);
+			currentVersion = AA48844E2000B331005AAB7F /* Widget.xcdatamodel */;
+			path = Widget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA7113E41FCC2DE700A677FC /* Project object */;
 }
