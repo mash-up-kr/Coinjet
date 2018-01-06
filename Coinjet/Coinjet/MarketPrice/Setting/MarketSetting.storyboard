@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1os-8d-sfP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--거래소 선택-->
+        <scene sceneID="nfu-gQ-nTH">
+            <objects>
+                <viewController id="1os-8d-sfP" customClass="MarketSettingViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TVv-sz-Ovp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-nh-Oyi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MarketSettingCell" id="AUr-vm-10S" customClass="MarketSettingCell" customModule="Coinjet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AUr-vm-10S" id="kQZ-oY-WnQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="M5e-rx-M6Q">
+                                                    <rect key="frame" x="16" y="16" width="13" height="10"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="10" id="Mfj-v4-lvC"/>
+                                                        <constraint firstAttribute="width" constant="13" id="gBJ-lh-cFi"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="거래소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXx-JF-Jp5">
+                                                    <rect key="frame" x="39" y="11" width="44.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="M5e-rx-M6Q" firstAttribute="leading" secondItem="kQZ-oY-WnQ" secondAttribute="leading" constant="16" id="GvI-RT-sxs"/>
+                                                <constraint firstItem="M5e-rx-M6Q" firstAttribute="centerY" secondItem="kQZ-oY-WnQ" secondAttribute="centerY" id="d3t-6y-4vh"/>
+                                                <constraint firstItem="dXx-JF-Jp5" firstAttribute="leading" secondItem="M5e-rx-M6Q" secondAttribute="trailing" constant="10" id="dTw-W0-3xG"/>
+                                                <constraint firstItem="dXx-JF-Jp5" firstAttribute="centerY" secondItem="kQZ-oY-WnQ" secondAttribute="centerY" id="wrN-dC-OSL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="checkMarkImageView" destination="M5e-rx-M6Q" id="bCQ-3d-QP4"/>
+                                            <outlet property="exchangeNameLabel" destination="dXx-JF-Jp5" id="uNU-RV-WEI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lo5-nh-Oyi" firstAttribute="top" secondItem="TVv-sz-Ovp" secondAttribute="top" id="D2g-Dd-1nd"/>
+                            <constraint firstItem="lo5-nh-Oyi" firstAttribute="leading" secondItem="Dgi-hp-Nbc" secondAttribute="leading" id="HIY-W5-VMj"/>
+                            <constraint firstItem="Dgi-hp-Nbc" firstAttribute="bottom" secondItem="lo5-nh-Oyi" secondAttribute="bottom" id="ZBj-OZ-oyN"/>
+                            <constraint firstItem="Dgi-hp-Nbc" firstAttribute="trailing" secondItem="lo5-nh-Oyi" secondAttribute="trailing" id="s3c-Es-3j5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dgi-hp-Nbc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="거래소 선택" id="TbS-6k-eTa">
+                        <barButtonItem key="backBarButtonItem" title=" " id="gL7-AP-adg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="lo5-nh-Oyi" id="1HR-4H-zID"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jK-f5-D8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-287.19999999999999" y="135.38230884557723"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="check" width="13" height="10"/>
+    </resources>
+</document>

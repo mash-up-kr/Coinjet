@@ -9,6 +9,11 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Market Price View Controller-->
         <scene sceneID="sPh-dE-eKN">
@@ -66,6 +71,7 @@
                                 </view>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
                             <constraints>
                                 <constraint firstItem="CfT-Za-rmV" firstAttribute="centerY" secondItem="u9T-5V-r3j" secondAttribute="centerY" id="2rq-up-reU"/>
                                 <constraint firstItem="CfT-Za-rmV" firstAttribute="leading" secondItem="u9T-5V-r3j" secondAttribute="leading" constant="16" id="4yH-9G-9sT"/>
@@ -75,11 +81,9 @@
                                 <constraint firstAttribute="trailing" secondItem="da9-iK-uqe" secondAttribute="trailing" constant="16" id="chS-Yn-PEA"/>
                                 <constraint firstAttribute="bottom" secondItem="da9-iK-uqe" secondAttribute="bottom" id="hfj-Cm-zU8"/>
                             </constraints>
-                        </view>
-                        <view key="tableFooterView" contentMode="scaleToFill" id="dTY-NI-tHg">
-                            <rect key="frame" x="0.0" y="182" width="375" height="1"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="wL6-5b-a60" appends="YES" id="erE-BZ-SPH"/>
+                            </connections>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MarketPriceCell" rowHeight="94" id="Qyj-8y-TU8" customClass="MarketPriceCell" customModule="Coinjet" customModuleProvider="target">
@@ -97,7 +101,7 @@
                                             </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="toZ-u8-HpS">
-                                            <rect key="frame" x="56" y="16" width="303" height="61.5"/>
+                                            <rect key="frame" x="56" y="14.5" width="303" height="65"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="실시간 시세(KRW)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0g3-EU-gOc">
                                                     <rect key="frame" x="0.0" y="0.0" width="127.5" height="20.5"/>
@@ -106,16 +110,16 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-8p-Rdy">
-                                                    <rect key="frame" x="0.0" y="20.5" width="233.5" height="41"/>
+                                                    <rect key="frame" x="0.0" y="20.5" width="249" height="44.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13,055,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWo-kE-0Mo">
-                                                            <rect key="frame" x="0.0" y="0.0" width="191" height="41"/>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13,055,000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWo-kE-0Mo">
+                                                            <rect key="frame" x="0.0" y="0.0" width="206.5" height="44.5"/>
+                                                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="34"/>
                                                             <color key="textColor" red="0.27058823529411763" green="0.60784313725490191" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KRW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y0-4h-tLD">
-                                                            <rect key="frame" x="196" y="16.5" width="37.5" height="20.5"/>
+                                                            <rect key="frame" x="211.5" y="19.5" width="37.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.27058823529411763" green="0.60784313725490191" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -150,8 +154,21 @@
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iaV-k4-xAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="wL6-5b-a60">
+                    <connections>
+                        <segue destination="1ht-MJ-jmn" kind="show" id="92T-dN-Xuz"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="828" y="161.46926536731635"/>
+        </scene>
+        <!--MarketSetting-->
+        <scene sceneID="VQG-70-8nD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MarketSetting" id="1ht-MJ-jmn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMM-do-iFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1436" y="161"/>
         </scene>
     </scenes>
     <resources>
