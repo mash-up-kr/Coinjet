@@ -12,6 +12,7 @@ target 'Coinjet' do
     pod 'SnapKit', '~> 3.0.0'
     pod 'RxSwift',    '~> 4.0'
     pod 'RxCocoa',    '~> 4.0'
+    pod 'KakaoOpenSDK'
 
   target 'CoinjetTests' do
     inherit! :search_paths
