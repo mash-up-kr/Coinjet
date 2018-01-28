@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3F8C4232AB083B99EE0C3F82 /* Pods_CoinjetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631EDCEFBFC5E369194C684 /* Pods_CoinjetTests.framework */; };
+		4A367816201DB8D60056EAE0 /* StartTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A367815201DB8D60056EAE0 /* StartTaskManager.swift */; };
+		4A367818201DBABE0056EAE0 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A367817201DBABE0056EAE0 /* LoginService.swift */; };
+		4A36781A201DBAF70056EAE0 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A367819201DBAF70056EAE0 /* Auth.swift */; };
+		4A36781C201DBB1A0056EAE0 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36781B201DBB1A0056EAE0 /* CommonData.swift */; };
+		4A36781E201DBB370056EAE0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36781D201DBB370056EAE0 /* User.swift */; };
+		4A367820201DC0CB0056EAE0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36781F201DC0CB0056EAE0 /* SplashViewController.swift */; };
+		4A367822201DC0EA0056EAE0 /* StartTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A367821201DC0EA0056EAE0 /* StartTask.storyboard */; };
+		4A367824201DC1AC0056EAE0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A367823201DC1AC0056EAE0 /* UIViewController.swift */; };
+		4A367826201DC1F30056EAE0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A367825201DC1F30056EAE0 /* SignInViewController.swift */; };
 		4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A31FE4D95600B9D6BE /* AlamofireAPIRequest.swift */; };
 		4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A41FE4D95600B9D6BE /* TestAPI.swift */; };
 		4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */; };
@@ -106,6 +115,16 @@
 		33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coinjet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinjetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4537060267368BD3E44BE51F /* Pods-Coinjet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.release.xcconfig"; sourceTree = "<group>"; };
+		4A367815201DB8D60056EAE0 /* StartTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTaskManager.swift; sourceTree = "<group>"; };
+		4A367817201DBABE0056EAE0 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		4A367819201DBAF70056EAE0 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		4A36781B201DBB1A0056EAE0 /* CommonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		4A36781D201DBB370056EAE0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4A36781F201DC0CB0056EAE0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4A367821201DC0EA0056EAE0 /* StartTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartTask.storyboard; sourceTree = "<group>"; };
+		4A367823201DC1AC0056EAE0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		4A367825201DC1F30056EAE0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4A367827201DC4A70056EAE0 /* Briging_Header_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Briging_Header_h.h; sourceTree = "<group>"; };
 		4A5297A31FE4D95600B9D6BE /* AlamofireAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireAPIRequest.swift; sourceTree = "<group>"; };
 		4A5297A41FE4D95600B9D6BE /* TestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
 		4A5297A51FE4D95600B9D6BE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -349,6 +368,7 @@
 			children = (
 				AA7114221FCC2E2300A677FC /* Extension */,
 				AA7114241FCC2E2300A677FC /* Manager */,
+				4A367827201DC4A70056EAE0 /* Briging_Header_h.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -358,6 +378,7 @@
 			children = (
 				AA7114231FCC2E2300A677FC /* Extension.swift */,
 				4A5297AB1FE4F31400B9D6BE /* UIColor+RGB.swift */,
+				4A367823201DC1AC0056EAE0 /* UIViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -367,6 +388,9 @@
 			children = (
 				AA7114251FCC2E2300A677FC /* APIManager */,
 				AA7114271FCC2E2300A677FC /* KakaoManager */,
+				4A367815201DB8D60056EAE0 /* StartTaskManager.swift */,
+				4A367817201DBABE0056EAE0 /* LoginService.swift */,
+				4A36781B201DBB1A0056EAE0 /* CommonData.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -397,6 +421,11 @@
 				AA71142B1FCC2E2400A677FC /* HomeViewController.swift */,
 				AA71142A1FCC2E2400A677FC /* Home.storyboard */,
 				4AB20EE71FE5038100C1EA03 /* GraphView */,
+				4A367819201DBAF70056EAE0 /* Auth.swift */,
+				4A36781D201DBB370056EAE0 /* User.swift */,
+				4A36781F201DC0CB0056EAE0 /* SplashViewController.swift */,
+				4A367821201DC0EA0056EAE0 /* StartTask.storyboard */,
+				4A367825201DC1F30056EAE0 /* SignInViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -630,6 +659,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A367822201DC0EA0056EAE0 /* StartTask.storyboard in Resources */,
 				80ACE6181FE508CC00CD38E5 /* MarketPricePagerTab.storyboard in Resources */,
 				AA71144D1FCC2E2500A677FC /* Training.storyboard in Resources */,
 				AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */,
@@ -741,6 +771,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
@@ -748,6 +780,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
@@ -837,8 +871,11 @@
 				AA7114411FCC2E2500A677FC /* APIManager.swift in Sources */,
 				4AB20EFB1FE5038100C1EA03 /* ScrollableGraphView.swift in Sources */,
 				AA7114401FCC2E2500A677FC /* Extension.swift in Sources */,
+				4A36781A201DBAF70056EAE0 /* Auth.swift in Sources */,
+				4A367824201DC1AC0056EAE0 /* UIViewController.swift in Sources */,
 				AA71143E1FCC2E2500A677FC /* TabViewController.swift in Sources */,
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
+				4A367826201DC1F30056EAE0 /* SignInViewController.swift in Sources */,
 				4AB20EFD1FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
 				80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */,
@@ -846,10 +883,13 @@
 				4AB20EF81FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
 				4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */,
 				80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */,
+				4A36781C201DBB1A0056EAE0 /* CommonData.swift in Sources */,
 				AA9DCA451FEE1ACC00D609BD /* Content.swift in Sources */,
 				4A5297A81FE4D95700B9D6BE /* TestAPI.swift in Sources */,
 				4AB20EFF1FE5038100C1EA03 /* GraphPoint.swift in Sources */,
 				4A5297A71FE4D95700B9D6BE /* AlamofireAPIRequest.swift in Sources */,
+				4A367816201DB8D60056EAE0 /* StartTaskManager.swift in Sources */,
+				4A36781E201DBB370056EAE0 /* User.swift in Sources */,
 				AA9DCA481FEE1ACC00D609BD /* ContentTableViewCell.swift in Sources */,
 				AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */,
 				4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */,
@@ -857,10 +897,12 @@
 				AA7114441FCC2E2500A677FC /* HomeViewController.swift in Sources */,
 				4AB20EF71FE5038100C1EA03 /* GradientDrawingLayer.swift in Sources */,
 				AA9DCA441FEE1ACC00D609BD /* Comment.swift in Sources */,
+				4A367818201DBABE0056EAE0 /* LoginService.swift in Sources */,
 				4A5297A91FE4D95700B9D6BE /* HTTPMethod.swift in Sources */,
 				AA7114461FCC2E2500A677FC /* CommunityViewController.swift in Sources */,
 				4AB20EFE1FE5038100C1EA03 /* GraphPointAnimation.swift in Sources */,
 				AA71144B1FCC2E2500A677FC /* MyPageViewController.swift in Sources */,
+				4A367820201DC0CB0056EAE0 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,6 +1097,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mash-Up.IDB.Coinjet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./Coinjet/Common/Briging_Header_h.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1072,6 +1115,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mash-Up.IDB.Coinjet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./Coinjet/Common/Briging_Header_h.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -8,9 +8,11 @@
 
 import UIKit
 import SnapKit
+import RxSwift
 
 class HomeViewController: UIViewController {
 
+    let disposeBag = DisposeBag()
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var graphView: UIView!
     
@@ -20,11 +22,17 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
-        
+        print("")
+        StartTaskManager.sharedInstance.startTask()
+            .subscribe{ event in
+                if let value = event.element, value == true {
+//                    self.lodaData()
+                }
+            }
+            .disposed(by: self.disposeBag)
         // Do any additional setup after loading the view.
     }
+
 
     override func viewDidLayoutSubviews() {
         
