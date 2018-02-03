@@ -15,7 +15,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Home-->
+        <!--홈-->
         <scene sceneID="hQT-3t-YIM">
             <objects>
                 <viewController id="ITa-c1-rcI" customClass="HomeViewController" customModule="Coinjet" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,7 +102,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X6k-Sj-RvL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="PEn-p9-Sbc"/>
+                    <tabBarItem key="tabBarItem" title="홈" image="home" id="PEn-p9-Sbc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="graphView" destination="dz6-2g-v7D" id="7d6-gQ-dhI"/>
@@ -114,4 +114,7 @@
             <point key="canvasLocation" x="128.80000000000001" y="164.16791604197903"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="22" height="24"/>
+    </resources>
 </document>

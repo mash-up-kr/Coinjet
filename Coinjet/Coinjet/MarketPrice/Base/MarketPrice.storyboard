@@ -152,6 +152,7 @@
                             <outlet property="delegate" destination="z56-zP-KSb" id="Dqn-2u-LOF"/>
                         </connections>
                     </tableView>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iaV-k4-xAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="wL6-5b-a60">
