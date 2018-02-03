@@ -26,11 +26,6 @@
 		4AB20F011FE5038100C1EA03 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20EF61FE5038100C1EA03 /* LinePlot.swift */; };
 		54FA38F1EB844FFE38256559 /* Pods_Coinjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7D1A68E4A8773E69CA45F /* Pods_Coinjet.framework */; };
 		784B001DEBDF710342067313 /* Pods_CoinjetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD68A20F57CFDE5B010CBC /* Pods_CoinjetUITests.framework */; };
-		805428FA1FEE1D2700F76B70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F31FEE1D2600F76B70 /* DetailViewController.swift */; };
-		805428FB1FEE1D2700F76B70 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F51FEE1D2600F76B70 /* Comment.swift */; };
-		805428FC1FEE1D2700F76B70 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F61FEE1D2600F76B70 /* Content.swift */; };
-		805428FD1FEE1D2700F76B70 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F71FEE1D2700F76B70 /* NewPostViewController.swift */; };
-		805428FE1FEE1D2700F76B70 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */; };
 		805429031FEE2A6100F76B70 /* MarketSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805429021FEE2A6100F76B70 /* MarketSetting.storyboard */; };
 		805745FC2000B07E005A1F84 /* MarketSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805745FB2000B07E005A1F84 /* MarketSettingViewController.swift */; };
 		805745FE2000B201005A1F84 /* MarketSettingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805745FD2000B201005A1F84 /* MarketSettingViews.swift */; };
@@ -59,6 +54,10 @@
 		AA71144D1FCC2E2500A677FC /* Training.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71143A1FCC2E2400A677FC /* Training.storyboard */; };
 		AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */; };
 		AA71144F1FCC2E2500A677FC /* MarketPrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */; };
+		AA7553C1202594BD00D970EB /* WidgetSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7553BE202594BC00D970EB /* WidgetSetting.storyboard */; };
+		AA7553C2202594BD00D970EB /* WidgetSettingTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7553BF202594BC00D970EB /* WidgetSettingTableViewHeaderView.xib */; };
+		AA7553C3202594BD00D970EB /* WidgetSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7553C0202594BD00D970EB /* WidgetSettingViewController.swift */; };
+		AA7553C42025958000D970EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
 		AA7B92FA1FFBBB00000EA790 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7B92F91FFBBB00000EA790 /* NotificationCenter.framework */; };
 		AA7B92FD1FFBBB00000EA790 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7B92FC1FFBBB00000EA790 /* TodayViewController.swift */; };
 		AA7B93001FFBBB00000EA790 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7B92FE1FFBBB00000EA790 /* MainInterface.storyboard */; };
@@ -133,11 +132,6 @@
 		4AB20EF61FE5038100C1EA03 /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
 		52FD632C7464D939A67FD5C9 /* Pods-CoinjetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinjetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinjetTests/Pods-CoinjetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D73C5DE567D5469328023B5 /* Pods-Coinjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coinjet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coinjet/Pods-Coinjet.debug.xcconfig"; sourceTree = "<group>"; };
-		805428F31FEE1D2600F76B70 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		805428F51FEE1D2600F76B70 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
-		805428F61FEE1D2600F76B70 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		805428F71FEE1D2700F76B70 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
-		805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		805429021FEE2A6100F76B70 /* MarketSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MarketSetting.storyboard; sourceTree = "<group>"; };
 		805745FB2000B07E005A1F84 /* MarketSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSettingViewController.swift; sourceTree = "<group>"; };
 		805745FD2000B201005A1F84 /* MarketSettingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSettingViews.swift; sourceTree = "<group>"; };
@@ -172,6 +166,9 @@
 		AA71143A1FCC2E2400A677FC /* Training.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
 		AA71143C1FCC2E2400A677FC /* MarketPriceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPriceViewController.swift; sourceTree = "<group>"; };
 		AA71143D1FCC2E2400A677FC /* MarketPrice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MarketPrice.storyboard; sourceTree = "<group>"; };
+		AA7553BE202594BC00D970EB /* WidgetSetting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WidgetSetting.storyboard; sourceTree = "<group>"; };
+		AA7553BF202594BC00D970EB /* WidgetSettingTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetSettingTableViewHeaderView.xib; sourceTree = "<group>"; };
+		AA7553C0202594BD00D970EB /* WidgetSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetSettingViewController.swift; sourceTree = "<group>"; };
 		AA7B92F81FFBBB00000EA790 /* Coin Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Coin Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7B92F91FFBBB00000EA790 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		AA7B92FC1FFBBB00000EA790 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -282,23 +279,6 @@
 				4AB20EF41FE5038100C1EA03 /* GraphPoint.swift */,
 			);
 			path = Animation;
-			sourceTree = "<group>";
-		};
-		805428F41FEE1D2600F76B70 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				805428F51FEE1D2600F76B70 /* Comment.swift */,
-				805428F61FEE1D2600F76B70 /* Content.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		805428F81FEE1D2700F76B70 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				805428F91FEE1D2700F76B70 /* ContentTableViewCell.swift */,
-			);
-			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		805428FF1FEE291500F76B70 /* Tab */ = {
@@ -501,6 +481,9 @@
 		AA7114351FCC2E2400A677FC /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
+				AA7553BE202594BC00D970EB /* WidgetSetting.storyboard */,
+				AA7553BF202594BC00D970EB /* WidgetSettingTableViewHeaderView.xib */,
+				AA7553C0202594BD00D970EB /* WidgetSettingViewController.swift */,
 				AA7114371FCC2E2400A677FC /* MyPageViewController.swift */,
 				AA7114361FCC2E2400A677FC /* MyPage.storyboard */,
 			);
@@ -699,10 +682,12 @@
 				AA71143F1FCC2E2500A677FC /* Tab.storyboard in Resources */,
 				AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */,
 				AA71144A1FCC2E2500A677FC /* MyPage.storyboard in Resources */,
+				AA7553C2202594BD00D970EB /* WidgetSettingTableViewHeaderView.xib in Resources */,
 				AA7114451FCC2E2500A677FC /* Community.storyboard in Resources */,
 				AA71144F1FCC2E2500A677FC /* MarketPrice.storyboard in Resources */,
 				AA7114431FCC2E2500A677FC /* Home.storyboard in Resources */,
 				805429031FEE2A6100F76B70 /* MarketSetting.storyboard in Resources */,
+				AA7553C1202594BD00D970EB /* WidgetSetting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +709,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7553C42025958000D970EB /* Assets.xcassets in Resources */,
 				AA7B93001FFBBB00000EA790 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -906,6 +892,7 @@
 				AA71144E1FCC2E2500A677FC /* MarketPriceViewController.swift in Sources */,
 				4AB20EFD1FE5038100C1EA03 /* ScrollableGraphViewDataSource.swift in Sources */,
 				AA7114421FCC2E2500A677FC /* KakaoManager.swift in Sources */,
+				AA7553C3202594BD00D970EB /* WidgetSettingViewController.swift in Sources */,
 				80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */,
 				4AB20EFA1FE5038100C1EA03 /* FillDrawingLayer.swift in Sources */,
 				4AB20EF81FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift in Sources */,

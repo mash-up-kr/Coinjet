@@ -42,9 +42,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jmh-nT-vjI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btcBchBtg" translatesAutoresizingMaskIntoConstraints="NO" id="jmh-nT-vjI">
                                 <rect key="frame" x="16" y="16" width="52" height="52"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="Ha0-NR-YRO"/>
                                     <constraint firstAttribute="width" secondItem="jmh-nT-vjI" secondAttribute="height" multiplier="1:1" id="ghy-tc-b6i"/>
                                 </constraints>
                             </imageView>
@@ -84,4 +85,7 @@
             <point key="canvasLocation" x="137.59999999999999" y="132.23388305847078"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btcBchBtg" width="29" height="29"/>
+    </resources>
 </document>

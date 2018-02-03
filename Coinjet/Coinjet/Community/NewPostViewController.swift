@@ -26,7 +26,11 @@ class NewPostViewController: UIViewController {
         navigationItem.title = "글쓰기"
         
         let rightBarItem = UIBarButtonItem(title: "게시", style: .plain, target: self, action: #selector(submit))
+        let backButtonItem = UIBarButtonItem()
+        backButtonItem.title = ""
+        
         navigationItem.rightBarButtonItem = rightBarItem
+        navigationItem.backBarButtonItem = backButtonItem
     }
     
     // MARK: Actions

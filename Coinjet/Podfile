@@ -9,7 +9,7 @@ target 'Coinjet' do
     pod 'Alamofire', '~> 4.5'
     pod 'XLPagerTabStrip', '~> 8.0'
     pod 'SwiftyJSON'
-    pod 'SnapKit', '~> 3.0.0'
+    pod 'SnapKit'
 
   target 'CoinjetTests' do
     inherit! :search_paths

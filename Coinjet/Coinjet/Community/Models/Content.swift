@@ -18,5 +18,4 @@ struct Content {
     let commentCount: Int = 0
     var comments: [Comment]?
     let userName: String
-    
 }

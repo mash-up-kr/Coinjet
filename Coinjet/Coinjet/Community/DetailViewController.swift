@@ -25,12 +25,14 @@ class DetailViewController: UIViewController {
     private func initNavigationView() {
         navigationItem.title = "커뮤니티"
         
-        let rightBarItem = UIBarButtonItem(title: "새 글", style: .plain, target: self, action: #selector(newPost))
+        let rightBarItem = UIBarButtonItem(title: "새 글", style: .plain, target: self, action: #selector(bookMark))
         navigationItem.rightBarButtonItem = rightBarItem
     }
     
     // MARK: Actions
-    @objc private func newPost() {
+    @objc private func bookMark() {
         
     }
+    
+    
 }
