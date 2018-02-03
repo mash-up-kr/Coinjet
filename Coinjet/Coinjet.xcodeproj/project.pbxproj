@@ -34,6 +34,8 @@
 		80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */; };
 		80ACE6161FE505A300CD38E5 /* MarketPricePagerTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */; };
 		80ACE6181FE508CC00CD38E5 /* MarketPricePagerTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */; };
+		AA662C7020259C330023FCDC /* CommunityPagerTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA662C6E20259C330023FCDC /* CommunityPagerTab.storyboard */; };
+		AA662C7120259C330023FCDC /* CommunityPagerTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA662C6F20259C330023FCDC /* CommunityPagerTabController.swift */; };
 		AA7113F01FCC2DE700A677FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */; };
 		AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F61FCC2DE700A677FC /* Assets.xcassets */; };
 		AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7113F81FCC2DE700A677FC /* LaunchScreen.storyboard */; };
@@ -140,6 +142,8 @@
 		80ACE6131FE4FCAF00CD38E5 /* MarketPriceViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceViewData.swift; sourceTree = "<group>"; };
 		80ACE6151FE505A300CD38E5 /* MarketPricePagerTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPricePagerTabController.swift; sourceTree = "<group>"; };
 		80ACE6171FE508CC00CD38E5 /* MarketPricePagerTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MarketPricePagerTab.storyboard; sourceTree = "<group>"; };
+		AA662C6E20259C330023FCDC /* CommunityPagerTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CommunityPagerTab.storyboard; sourceTree = "<group>"; };
+		AA662C6F20259C330023FCDC /* CommunityPagerTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityPagerTabController.swift; sourceTree = "<group>"; };
 		AA7113EC1FCC2DE700A677FC /* Coinjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7113EF1FCC2DE700A677FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7113F61FCC2DE700A677FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -323,6 +327,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA662C6D20259C330023FCDC /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				AA662C6E20259C330023FCDC /* CommunityPagerTab.storyboard */,
+				AA662C6F20259C330023FCDC /* CommunityPagerTabController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 		AA7113E31FCC2DE700A677FC = {
 			isa = PBXGroup;
 			children = (
@@ -450,6 +463,7 @@
 		AA71142C1FCC2E2400A677FC /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				AA662C6D20259C330023FCDC /* Tab */,
 				AA9DCA421FEE1ACC00D609BD /* CustomViews */,
 				AA9DCA3D1FEE1ACC00D609BD /* Models */,
 				AA9DCA411FEE1ACC00D609BD /* DetailViewController.swift */,
@@ -681,6 +695,7 @@
 				AA7113FA1FCC2DE700A677FC /* LaunchScreen.storyboard in Resources */,
 				AA71143F1FCC2E2500A677FC /* Tab.storyboard in Resources */,
 				AA7113F71FCC2DE700A677FC /* Assets.xcassets in Resources */,
+				AA662C7020259C330023FCDC /* CommunityPagerTab.storyboard in Resources */,
 				AA71144A1FCC2E2500A677FC /* MyPage.storyboard in Resources */,
 				AA7553C2202594BD00D970EB /* WidgetSettingTableViewHeaderView.xib in Resources */,
 				AA7114451FCC2E2500A677FC /* Community.storyboard in Resources */,
@@ -896,6 +911,7 @@
 				80ACE6121FE4FA8100CD38E5 /* MarketPriceViews.swift in Sources */,
 				4AB20EFA1FE5038100C1EA03 /* FillDrawingLayer.swift in Sources */,
 				4AB20EF81FE5038100C1EA03 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+				AA662C7120259C330023FCDC /* CommunityPagerTabController.swift in Sources */,
 				4A5297AA1FE4D95700B9D6BE /* API.swift in Sources */,
 				80ACE6141FE4FCAF00CD38E5 /* MarketPriceViewData.swift in Sources */,
 				805746002000B32C005A1F84 /* MarketSettingViewData.swift in Sources */,

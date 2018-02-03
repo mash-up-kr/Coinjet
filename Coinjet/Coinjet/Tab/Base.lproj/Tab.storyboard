@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="672" y="-22"/>
         </scene>
-        <!--Community-->
+        <!--CommunityPagerTab-->
         <scene sceneID="GZK-oJ-FHe">
             <objects>
-                <viewControllerPlaceholder storyboardName="Community" id="mCU-9v-vbi" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="CommunityPagerTab" id="mCU-9v-vbi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Community" id="EGk-rH-2Gw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UkZ-EX-sVI" userLabel="First Responder" sceneMemberID="firstResponder"/>

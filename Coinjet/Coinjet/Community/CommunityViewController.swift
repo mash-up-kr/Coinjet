@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XLPagerTabStrip
 
 // MARK: - CommunityViewController
 class CommunityViewController: UIViewController {
@@ -18,6 +19,8 @@ class CommunityViewController: UIViewController {
     
     // MARK: Outlets
     @IBOutlet weak var searchBar: UISearchBar!
+    
+    var indicatorInfo = IndicatorInfo(title: "")
     
     // MARK: LifeCycle
     override func viewDidLoad() {
@@ -67,5 +70,12 @@ extension CommunityViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: showDetailSegueID, sender: nil)
+    }
+}
+
+// MARK: -
+extension CommunityViewController: IndicatorInfoProvider {
+    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
+        return indicatorInfo
     }
 }
