@@ -20,11 +20,21 @@ class WidgetSettingViewController: UIViewController {
         super.viewDidLoad()
         
         initNib()
+        initUserDefault()
     }
     
     func initNib() {
         let nib = UINib(nibName: "WidgetSettingTableViewHeaderView", bundle: nil)
         widgetSettingTableView.register(nib, forHeaderFooterViewReuseIdentifier: "WidgetSettingTableViewHeaderView")
+    }
+    
+    func initUserDefault() {
+        if let selectedCoinIndex = UserDefaults.standard.object(forKey: "UserSelectedCoin") as? Int {
+            self.selectedCoinIndex = selectedCoinIndex
+        }
+        if let selectedMarketIndex = UserDefaults.standard.object(forKey: "UserSelectedMarket") as? Int {
+            self.selectedMarketIndex = selectedMarketIndex
+        }
     }
 }
 
@@ -71,9 +81,15 @@ extension WidgetSettingViewController: UITableViewDataSource, UITableViewDelegat
         var title = ""
         if indexPath.section == 0 {
             title = coin[indexPath.row]
+            if selectedCoinIndex == indexPath.row {
+                cell.checkMarkImageView.image = #imageLiteral(resourceName: "check")
+            }
         }
         else if indexPath.section == 1 {
             title = market[indexPath.row]
+            if selectedMarketIndex == indexPath.row {
+                cell.checkMarkImageView.image = #imageLiteral(resourceName: "check")
+            }
         }
         cell.configureCell(title)
      
@@ -93,6 +109,7 @@ extension WidgetSettingViewController: UITableViewDataSource, UITableViewDelegat
                 row = selectedCoinIndex
             }
             selectedCoinIndex = indexPath.row
+            UserDefaults.standard.set(selectedCoinIndex, forKey: "UserSelectedCoin")
         }
         else if indexPath.section == 1 {
             if selectedMarketIndex != -1 {
@@ -100,6 +117,7 @@ extension WidgetSettingViewController: UITableViewDataSource, UITableViewDelegat
                 row = selectedMarketIndex
             }
             selectedMarketIndex = indexPath.row
+            UserDefaults.standard.set(selectedMarketIndex, forKey: "UserSelectedMarket")
         }
         
         if let cell = tableView.cellForRow(at: IndexPath(row: row, section: section)) as? WidgetSettingTableViewCell {
